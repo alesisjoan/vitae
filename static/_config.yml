@@ -1,0 +1,36 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://alesisjoan.github.io/
+author: Fábio Madeira
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Alesis Manzano's Resume
+name: Alesis Manzano
+email: alesismanzano@gmail.com
+email_full: mailto:alesismanzano@gmail.com
+website: github.io/alesisjoan
+website_full: https://alesisjoan.github.io
+github: alesisjoan
+twitter:
+tel: +5492614698249
+tel_full: tel:+5492614698249
+google_maps:
+address:
+  street: Lamadrid *** (ask for more info)
+  postcode: M5500
+  city: Mendoza
+  country: Argentina
+google_analytics:
+
+# needed for travis-ci build
+exclude: [vendor]
